@@ -1,158 +1,281 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400|Raleway:100,400');
-h1,h2,h3,h4,h5,h6{
-	font-family: 'Raleway',sans-serif;
+body {
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Raleway', sans-serif;
 	font-weight: 100;
 }
-p{
-font-family: 'Open Sans', sans-serif;
-font-size: 13px;
-font-weight: 400;
-line-height: 24px;
+
+p {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 24px;
 }
-#login-bg-video{
+
+#login-bg-video {
 	position: fixed;
 	top: 50%;
 	left: 50%;
-	transform: translateX(-50%) translateY(-50%); /*read about this*/
+	transform: translateX(-50%) translateY(-50%);
+	/*read about this*/
 	min-width: 100%;
 	min-height: 100%;
 	width: auto;
 	height: auto;
 	z-index: -1;
 }
-#login-overlay{
-	background-color: rgba(0,0,0,0.8);
+
+#login-overlay {
+	background-color: rgba(0, 0, 0, 0.8);
 	width: 100%;
 	height: 100%;
 	position: fixed;
 	top: 0;
 	left: 0;
-	z-index: -1;/*read about this */
+	z-index: -1;
+	/*read about this */
 }
 
-#login-content{
+#login-content {
 	position: absolute;
-    left: 0;
-    top: 30%;
-    width: 100%;
-    text-align: center;
-    font-size: 18px;
+	left: 0;
+	top: 30%;
+	width: 100%;
+	text-align: center;
+	font-size: 18px;
 }
 
-#home-heading-1{
+#home-heading-1 {
 	color: white;
 	display: inline;
 	font-size: 65px;
-    font-weight: 100 !important;
-    text-transform: uppercase;
+	font-weight: 100 !important;
+	text-transform: uppercase;
 	margin: 0;
 	position: relative;
--webkit-animation-name: example; 
-    -webkit-animation-duration: 8s;
-    /*-webkit-animation-delay: 2s; */
-    animation-name: example;
-    animation-delay: -4s;
+	-webkit-animation-name: example;
+	-webkit-animation-duration: 8s;
+	/*-webkit-animation-delay: 2s; */
+	animation-name: example;
+	animation-delay: -4s;
 }
+
 @-webkit-keyframes example {
-    0%   {opacity: 0; left:0px; top:0px}
-    25%  {opacity: 0.25; left:0px; top:0px;}
-    50%  {opacity: 0.50;top:-200px;}
-    75%  {opacity: 0.75; left:0px; top:0px;}
-    100% {opacity: 1;left: 0px; top:0px;}
+	0% {
+		opacity: 0;
+		left: 0px;
+		top: 0px
+	}
+
+	25% {
+		opacity: 0.25;
+		left: 0px;
+		top: 0px;
+	}
+
+	50% {
+		opacity: 0.50;
+		top: -200px;
+	}
+
+	75% {
+		opacity: 0.75;
+		left: 0px;
+		top: 0px;
+	}
+
+	100% {
+		opacity: 1;
+		left: 0px;
+		top: 0px;
+	}
 
 }
 
 /* Standard syntax */
 @keyframes example {
-      0%   {opacity: 0; left:0px; top:0px}
-    25%  {opacity: 0.25; left:0px; top:0px;}
-    50%  {opacity: 0.50;top:-200px;}
-    75%  {opacity: 0.75; left:0px; top:0px;}
-    100% {opacity: 1;left: 0px; top:0px;}
+	0% {
+		opacity: 0;
+		left: 0px;
+		top: 0px
+	}
+
+	25% {
+		opacity: 0.25;
+		left: 0px;
+		top: 0px;
+	}
+
+	50% {
+		opacity: 0.50;
+		top: -200px;
+	}
+
+	75% {
+		opacity: 0.75;
+		left: 0px;
+		top: 0px;
+	}
+
+	100% {
+		opacity: 1;
+		left: 0px;
+		top: 0px;
+	}
 
 }
-#home-heading-2{
+
+#home-heading-2 {
 	color: white;
 	display: inline;
 	font-size: 65px;
-    font-weight: 100;
-    text-transform: uppercase;
+	font-weight: 100;
+	text-transform: uppercase;
 	margin: 0;
 	position: relative;
--webkit-animation-name: examples; 
-    -webkit-animation-duration: 8s;
-    /*-webkit-animation-delay: 2s; */
-    animation-name: examples;
-    animation-delay: -4s;
+	-webkit-animation-name: examples;
+	-webkit-animation-duration: 8s;
+	/*-webkit-animation-delay: 2s; */
+	animation-name: examples;
+	animation-delay: -4s;
 }
+
 @-webkit-keyframes examples {
-     0%   {opacity: 0; left:0px; top:0px}
-    25%  {opacity: 0.25; left:0px; top:0px;}
-    50%  {opacity: 0.50;left:-200px;}
-    75%  {opacity: 0.75; left:0px; top:0px;}
-    100% {opacity: 1;left: 0px; top:0px;}
+	0% {
+		opacity: 0;
+		left: 0px;
+		top: 0px
+	}
+
+	25% {
+		opacity: 0.25;
+		left: 0px;
+		top: 0px;
+	}
+
+	50% {
+		opacity: 0.50;
+		left: -200px;
+	}
+
+	75% {
+		opacity: 0.75;
+		left: 0px;
+		top: 0px;
+	}
+
+	100% {
+		opacity: 1;
+		left: 0px;
+		top: 0px;
+	}
 
 }
 
 /* Standard syntax */
 @keyframes examples {
-    0%   {opacity: 0; left:0px; top:0px}
-    25%  {opacity: 0.25; left:0px; top:0px;}
-    50%  {opacity: 0.50;left:-200px;}
-    75%  {opacity: 0.75; left:0px; top:0px;}
-    100% {opacity: 1;left: 0px; top:0px;}
+	0% {
+		opacity: 0;
+		left: 0px;
+		top: 0px
+	}
+
+	25% {
+		opacity: 0.25;
+		left: 0px;
+		top: 0px;
+	}
+
+	50% {
+		opacity: 0.50;
+		left: -200px;
+	}
+
+	75% {
+		opacity: 0.75;
+		left: 0px;
+		top: 0px;
+	}
+
+	100% {
+		opacity: 1;
+		left: 0px;
+		top: 0px;
+	}
 
 }
-span{
+
+span {
 	color: #f4c613;
-    font-weight: 600;
+	font-weight: 600;
 
 }
-#login-text p{
+
+#login-text p {
 	color: white;
 	display: inline;
 	font-size: 17px;
 	font-weight: 100;
-	line-height: 24px; 
-	-webkit-animation-name: exampler; 
-    -webkit-animation-duration: 4s;
-    /*-webkit-animation-delay: 2s; */
-    animation-name: exampler;
-    animation-delay: -2s;
+	line-height: 24px;
+	-webkit-animation-name: exampler;
+	-webkit-animation-duration: 4s;
+	/*-webkit-animation-delay: 2s; */
+	animation-name: exampler;
+	animation-delay: -2s;
 }
 
-.button{
-    border: 1px solid #fff;
-	 border-radius: 28px; 
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 24px;
-    cursor: pointer;
-    text-transform: uppercase;
-    -webkit-animation-name: exampler; 
-    -webkit-animation-duration: 4s;
-    /*-webkit-animation-delay: 2s; */
-    animation-name: exampler;
-    animation-delay: -2s;
+.button {
+	border: 1px solid #fff;
+	border-radius: 28px;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 24px;
+	cursor: pointer;
+	text-transform: uppercase;
+	-webkit-animation-name: exampler;
+	-webkit-animation-duration: 4s;
+	/*-webkit-animation-delay: 2s; */
+	animation-name: exampler;
+	animation-delay: -2s;
 
 }
-.button:hover{
-	background-color: #FFC300  ;
+
+.button:hover {
+	background-color: #FFC300;
 }
+
 @-webkit-keyframes exampler {
-  from {size: 0%;}
-    to {size: 100%;}
+	from {
+		size: 0%;
+	}
+
+	to {
+		size: 100%;
+	}
 
 }
 
 /* Standard syntax */
 @keyframes exampler {
- from {font-size: 0%;}
-    to {font-size: 100%;}
+	from {
+		font-size: 0%;
+	}
+
+	to {
+		font-size: 100%;
+	}
 
 }
 
@@ -160,72 +283,79 @@ span{
 /*                                  login box                                              */
 /*------------------------------------------------------------------------------------------*/
 
-.modal{
-	background-color: rgba(0,0,0,.8);
+.modal {
+	background-color: rgba(0, 0, 0, .8);
 	width: 100%;
 	height: 100%;
 	position: absolute;
 	top: 0;
 	left: 0;
 	z-index: 10;
-	opacity: 0;/* these two below line used to hide the content*/
+	opacity: 0;
+	/* these two below line used to hide the content*/
 	visibility: hidden;
 
 	transition: all .5s;
 
 }
-.loginbox{
+
+.loginbox {
 	position: absolute;
 	top: 50%;
 	left: 50%;
-	transform: translate(-50%,-50%);
+	transform: translate(-50%, -50%);
 	width: 355px;
 	height: 420px;
 	box-sizing: border-box;
 	border: 2px solid black;
 	border-radius: 13px;
 	background: white;
-	opacity: 0;/* these two below line used to hide the content*/
+	opacity: 0;
+	/* these two below line used to hide the content*/
 	visibility: hidden;
-	background-image: url("https://thumbs.gfycat.com/HeavySoupyDuckbillcat-size_restricted.gif")  ;
+	background-image: url("https://thumbs.gfycat.com/HeavySoupyDuckbillcat-size_restricted.gif");
 
-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
 	transition: all .5s;
 }
-#user{
-	font-size:80px;
+
+#user {
+	font-size: 80px;
 	position: absolute;
 	top: 15%;
-	left: 50%; 
-	transform: translate(-50%,-50%);
-	color:lightblue; 
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: lightblue;
 	/*margin-bottom: 10px;*/
 }
-#close{
-	font-size:25px;
+
+#close {
+	font-size: 25px;
 	position: absolute;
 	top: 4%;
-	left: 96%; 
-	transform: translate(-50%,-50%);
+	left: 96%;
+	transform: translate(-50%, -50%);
 	color: lightblue;
 
 }
-#input1{
+
+#input1 {
 	position: absolute;
 	top: 32%;
 	left: 50%;
-	transform: translate(-50%,-50%);
+	transform: translate(-50%, -50%);
 	width: 90%;
 	margin-bottom: 20px solid black;
 	background-color: lightblue;
-border-radius: 10px;
+	border-radius: 10px;
 	padding: 5px 5px 5px 5px;
 }
-#input2{
+
+#input2 {
 	position: absolute;
 	top: 42%;
 	left: 50%;
-	transform: translate(-50%,-50%);
+	transform: translate(-50%, -50%);
 	width: 90%;
 	margin-bottom: 20px;
 	background-color: lightblue;
@@ -233,64 +363,69 @@ border-radius: 10px;
 	padding: 5px 5px 5px 5px;
 
 }
-#input3{
+
+#input3 {
 	position: absolute;
 	top: 47%;
 	left: 50%;
-	transform: translate(-50%,-50%);
+	transform: translate(-50%, -50%);
 	width: 100%;
 	margin-bottom: 20px solid black;
 	color: lightblue;
 
 }
-#forget{
+
+#forget {
 	text-decoration: none;
 	position: absolute;
 	top: 50%;
-	left:105%;
-	transform: translate(-50%,-50%);
+	left: 105%;
+	transform: translate(-50%, -50%);
 	width: 100%;
 	margin-bottom: 20px solid black;
 	color: lightblue;
 
 }
-#part{
+
+#part {
 	position: absolute;
 	top: 70%;
 	left: 50%;
-	transform: translate(-50%,-50%);
+	transform: translate(-50%, -50%);
 	color: lightblue;
 
 }
 
-#google{
-position: absolute;
+#google {
+	position: absolute;
 	top: 90%;
 	left: 15%;
-	transform: translate(-50%,-50%);	
+	transform: translate(-50%, -50%);
 }
 
-#facebook{
-position: absolute;
+#facebook {
+	position: absolute;
 	top: 90%;
 	left: 35%;
-	transform: translate(-50%,-50%);	
+	transform: translate(-50%, -50%);
 	/*background-color: lightblue;*/
 
 }
-#link{
-position: absolute;
+
+#link {
+	position: absolute;
 	top: 90%;
 	left: 60%;
-	transform: translate(-50%,-50%);
+	transform: translate(-50%, -50%);
 	/*background-color: lightblue;*/
 
 }
-#github{
-position: absolute;
+
+#github {
+	position: absolute;
 	top: 90%;
 	left: 85%;
-	transform: translate(-50%,-50%);	
+	transform: translate(-50%, -50%);
 }
 
 .buttons {
@@ -298,26 +433,29 @@ position: absolute;
 	position: absolute;
 	top: 58%;
 	left: 50%;
-	transform: translate(-50%,-50%);
-  border: none;
-  outline: 0;
-  display: inline-block;
-  padding: 8px;
-  color: white;
-  background-color: #17C83A;
-  text-align: center;
-  cursor: pointer;
-  width: 30%;
+	transform: translate(-50%, -50%);
+	border: none;
+	outline: 0;
+	display: inline-block;
+	padding: 8px;
+	color: white;
+	background-color: #17C83A;
+	text-align: center;
+	cursor: pointer;
+	width: 30%;
 }
-.buttons:hover{
+
+.buttons:hover {
 	background-color: darkgreen;
 }
+
 /*--------------------------------------*/
-.modal:target{
+.modal:target {
 	opacity: 1;
 	visibility: visible;
 }
-.modal:target .loginbox{
+
+.modal:target .loginbox {
 	opacity: 1;
 	visibility: visible;
 }
