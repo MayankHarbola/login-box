@@ -1,75 +1,109 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title></title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	
-</head>
-<body>
+  <head>
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <section id="login">
+      <video id="login-bg-video" poster="solo.jpg" autoplay loop muted>
+        <!-- .. is  equivlent to E:\projects-->
+        <source src="solo.mp4" type="video/mp4" />
+      </video>
 
-<section id = "login">
-<video id = "login-bg-video" poster="solo.jpg" autoplay loop muted>
-	<!-- .. is  equivlent to E:\projects-->
-	<source src="solo.mp4" type="video/mp4">
-</video>
+      <div id="login-overlay"></div>
 
-<div id = "login-overlay" ></div>
+      <div id="login-content">
+        <div id="login-content-inner">
+          <div id="login-heading">
+            <h1 id="home-heading-1">Digital</h1>
+            <div>
+              <h1 id="home-heading-2">Marketing <span>Agency</span></h1>
+            </div>
+          </div>
+          <div id="login-text">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam in
+              nihil minima unde qui nihil minima.
+            </p>
+          </div>
+          <div id="login-button">
+            <a href="#modal" class="button">start now</a>
+          </div>
+        </div>
+      </div>
+    </section>
 
-<div id = "login-content" >
-	<div id ="login-content-inner">
-    <div id="login-heading">
-    	<h1 id="home-heading-1">Digital</h1>
-    <div>	<h1 id="home-heading-2">Marketing <span>Agency</span></h1></div>
+    <!-- --------------------------------------------------------------------------------------------- -->
+    <!--                                    login page                                                 -->
+    <!-- ---------------------------------------------------------------------------------------------- -->
 
+    <div class="modal" id="modal">
+      <div class="loginbox">
+        <i class="fa fa-user-circle" aria-hidden="true" id="user"></i>
+        <a href="#"
+          ><i class="fa fa-times-circle" aria-hidden="true" id="close"></i
+        ></a>
+        <form>
+          <input type="text" name="" placeholder="USERNAME" id="input1" /><br />
+          <input
+            type="password"
+            name=""
+            placeholder="PASSWORD"
+            id="input2"
+          /><br />
+          <p id="input3"><input type="checkbox" name="" />Remember me<br /></p>
+        </form>
+
+        <a href="#" id="forget">Forgot your password?</a>
+        <a href="#" class="buttons">Log In</a>
+
+        <div id="part">
+          <table>
+            <tr>
+              <td style="width: 30%"><hr /></td>
+              <td style="vertical-align: middle; text-align: center">
+                Or connect with
+              </td>
+              <td style="width: 30%"><hr /></td>
+            </tr>
+          </table>
+        </div>
+        <div>
+          <a
+            href="https://accounts.google.com/signin/v2/identifier?hl=en-gb&flowName=GlifWebSignIn&flowEntry=ServiceLogin"
+            ><img
+              src="https://hrcdn.net/hackerrank/assets/google-colored-b262cc3f509637a5837bfea0fab325a7.svg"
+              id="google"
+              style="width: 50px; height: 50px"
+          /></a>
+
+          <a href="https://en-gb.facebook.com/login/"
+            ><img
+              src="https://hrcdn.net/hackerrank/assets/facebook-colored-e0d159c0482387bad3f96f562dee7e47.svg"
+              id="facebook"
+              style="width: 50px; height: 50px"
+          /></a>
+
+          <a href="https://www.linkedin.com/uas/login?_l=en">
+            <img
+              src="https://hrcdn.net/hackerrank/assets/linkedin-colored-9a4d460379b1dfa2a24460b4b110fdf9.svg"
+              id="link"
+              style="width: 50px; height: 50px"
+          /></a>
+
+          <a href="https://github.com/login">
+            <img
+              src="https://hrcdn.net/hackerrank/assets/github-colored-68b8080440d13688723f4d5f951f1c07.svg"
+              id="github"
+              style="width: 50px; height: 50px"
+          /></a>
+        </div>
+      </div>
     </div>
-	<div id="login-text">
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam in nihil minima unde qui nihil minima. </p>
-	</div>
-	<div id="login-button">
-		<a href="#modal" class="button">start now</a>
-	</div>
-</div>
-  </div>
-</section>
-
-<!-- --------------------------------------------------------------------------------------------- -->
-<!--                                    login page                                                 -->
-<!-- ---------------------------------------------------------------------------------------------- -->
-
-	<div class="modal" id = "modal">
-<div class="loginbox">
-	<i class="fa fa-user-circle" aria-hidden="true" id = "user"></i>
-	<a href="#"><i class="fa fa-times-circle" aria-hidden="true" id = close></i></a>
-	<form>
-		<input type="text" name="" placeholder="USERNAME" id = "input1"><br>
-		<input type="password" name="" placeholder="PASSWORD" id = "input2"><br>
-		<p id = "input3" ><input type="checkbox" name="" >Remember me<br></p>
-	</form>
-
-	<a href="#" id = "forget">Forgot your password?</a>
-		<a href="#" class="buttons">Log In</a>
-
-	<div id ="part">
-	<table><tr>
-<td style="width:30%"><hr/></td>
-<td style="vertical-align:middle; text-align: center">Or connect with</td>
-<td style="width:30%"><hr/></td>
-</tr></table>
-</div>
-<div>
-<a href="https://accounts.google.com/signin/v2/identifier?hl=en-gb&flowName=GlifWebSignIn&flowEntry=ServiceLogin"><img src="https://hrcdn.net/hackerrank/assets/google-colored-b262cc3f509637a5837bfea0fab325a7.svg" id = "google" style="width:50px;height:50px;"></a>
-
-<a href="https://en-gb.facebook.com/login/"><img src="https://hrcdn.net/hackerrank/assets/facebook-colored-e0d159c0482387bad3f96f562dee7e47.svg" id = "facebook" style="width:50px;height:50px;"></a>
-
-<a href="https://www.linkedin.com/uas/login?_l=en">
-<img src="https://hrcdn.net/hackerrank/assets/linkedin-colored-9a4d460379b1dfa2a24460b4b110fdf9.svg" id = "link" style="width:50px;height:50px;"></a>
-
-<a href="https://github.com/login">
-<img src="https://hrcdn.net/hackerrank/assets/github-colored-68b8080440d13688723f4d5f951f1c07.svg" id ="github" style="width:50px;height:50px;"></a>
-</div>
-</div>
-</div>
-
-</body>
+  </body>
 </html>
